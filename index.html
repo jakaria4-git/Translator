@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LibreTranslate Web Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LibreTranslate Web Translator (Free)</h1>
+
+    <textarea id="inputText" placeholder="Type or paste your text here..."></textarea>
+
+    <div class="row">
+      <select id="sourceLang">
+        <option value="en">English</option>
+        <option value="bn">Bangla</option>
+        <option value="hi">Hindi</option>
+      </select>
+
+      <select id="targetLang">
+        <option value="bn">Bangla</option>
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+      </select>
+    </div>
+
+    <button onclick="translateText()">Translate</button>
+
+    <textarea id="outputText" placeholder="Translation result will appear here..." readonly></textarea>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
