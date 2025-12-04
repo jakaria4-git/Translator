@@ -1,2 +1,2 @@
-# Translator
+# Transla
 My Free Translator Website
